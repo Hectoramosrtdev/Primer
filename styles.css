@@ -1,0 +1,101 @@
+*{
+    margin: 0px;  /*La etiqueta <margin> su funcion es dar un margen a nuestro contenido */
+    padding: 0px;
+}
+
+
+
+body{
+    background-color: lightslategray;  /*La etiqueta backgroun-color funciona para darle un color de fondo a nuestra pagina web */
+    font-family: Arial, Helvetica, sans-serif; /*La etiqueta Font-family su funcion es para darle un tipo de letra a nuestro conteido de texto*/
+}
+
+#container{
+
+    width: 1100px;  
+    margin: 0px auto;
+    border: 1px solid black; /*La etiqueta border funciona para darle bordes a nuesto contenido*/
+
+}
+
+
+header{
+    background-color: red;
+    height: 100px;  /*La etiqueta heigth especifica la altura de un elemento*/
+    width: 100%;    /*La etiqueta width especifica la anchura del area de contenido de un elemento*/
+    margin: 0px;
+    text-align: center; /*La etiqueta text-aling su funcion es mover el contenido ya sea en el principio, mitad o fin de nuestra pagina*/
+    line-height: 100px; /*La etiqueta line-height establece la altura de una casilla remarcada por líneas */
+    color: white; /*La etiqueta color es para una darle un color de fondo a nuestro texto*/
+    border-bottom: 3px solid black;
+
+} 
+
+nav{
+    background: lightblue;
+    height: 50px;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;   /*La etiqueta list-style su funcion es darle un tipo de estilo a nuestra listas*/
+    margin: 10px;
+    line-height: 25px;
+}
+
+.clearfix{ 
+    clear: both;
+
+
+
+}
+
+#content{
+    float: left; /*La etiqueta float ubica un elemento al lado izquierdo o derecho de su contenedor, permitiendo a los elementos de texto y en línea aparecer a su costado.*/
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: green;
+    padding: 40px;
+}
+
+.article:first-child {
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 500px;
+    background: orange;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+
+}
+
+
+.article{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+
+
+
+.article h2{
+    font-size: 25px;
+}
+
